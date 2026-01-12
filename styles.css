@@ -44,3 +44,16 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+  /* Improve dark theme contrast */
+[data-theme="dark"] {
+  background: #121212;
+  color: #e0e0e0;  /* Better contrast */
+}
+
+[data-theme="dark"] header {
+  background: #1e2a36;  /* Darker for better contrast */
+}
+
+[data-theme="dark"] a {
+  color: #4fc3f7;  /* Brighter links */
+}
